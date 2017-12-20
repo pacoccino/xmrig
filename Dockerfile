@@ -9,8 +9,8 @@ RUN mkdir /app/build
 RUN cmake .
 RUN make
 
-ENV POOL=stratum+tcp://xdn-xmr.pool.minergate.com:45790
+ENV POOL=stratum+tcp://xmr.pool.minergate.com:45560
 ENV USER=pakokrew@gmail.com
 
-ENTRYPOINT /app/xmrig -a cryptonight -o $POOL$ -u $USER$ -p x --print-time=10
+ENTRYPOINT /app/xmrig -a cryptonight -o $POOL$ -u $USER$ --print-time=10
 

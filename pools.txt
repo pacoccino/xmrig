@@ -1,0 +1,5 @@
+stratum+tcp://xmr.pool.minergate.com:45560
+stratum+tcp://xdn.pool.minergate.com:45620
+stratum+tcp://xdn-xmr.pool.minergate.com:45790
+stratum+tcp://fcn-xmr.pool.minergate.com:45590
+
