@@ -12,5 +12,5 @@ RUN make
 ENV POOL=stratum+tcp://xmr.pool.minergate.com:45560
 ENV USER=pakokrew@gmail.com
 
-ENTRYPOINT /app/xmrig -a cryptonight -o $POOL -u $USER --print-time=10
+ENTRYPOINT /app/xmrig -a cryptonight -o $POOL -u $USER --print-time=10 --donate-level=1
 
